@@ -1,6 +1,6 @@
 import React from 'react'
-import UserImage from '../assets/profile.png'
-import SocialIcon from '../assets/linkedin-icon.png'
+import UserImage from '../../public/profile.jpg'
+import LinkedIn from '../../public/linkedin.png'
 
 function Banner() {
     return (
@@ -16,7 +16,7 @@ function Banner() {
                     </div>
                 </div>
             <div className="social-link flex justify-center items-center gap-2">
-                <img src={SocialIcon} alt=""  className="w-7"/>
+                <img src={LinkedIn} alt=""  className="w-7"/>
                 <h1 className="font-semibold text-xl hidden sm:block">Aditya Rawat</h1>
             </div>
             </div>

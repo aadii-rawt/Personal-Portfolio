@@ -1,6 +1,8 @@
 import React from 'react'
-import Github from '../assets/github.png'
-import Telegram from '../assets/telegram-icon.png'
+import Github from '../../public/github.png'
+import Telegram from '../../public/telegram.png'
+import Instagram from '../../public/instagram.png'
+import Mail from '../../public/mail.png'
 
 function Sidebar({isMenuActive}) {
   return (
@@ -8,9 +10,9 @@ function Sidebar({isMenuActive}) {
         <ul>
             <li className='my-10'><a href="#" className='flex gap-4'><img src={Github} alt="" className='w-7' /> GitHub</a></li>
             <li className='my-10'><a href="#" className='flex gap-4'><img src={Telegram} alt="" className='w-7' /> Telegram</a></li>
-            <li className='my-10'>Insatgram</li>
-            <li className='my-10'>X</li>
-            <li className='my-10'>Mail</li>
+            <li className='my-10'><a href="#" className='flex gap-4'><img src={Instagram} alt="" className='w-7' />Insatgram</a></li>
+            <li className='my-10'><a href="#" className='flex gap-4'><img src={Telegram} alt="" className='w-7' />X</a></li>
+            <li className='my-10'><a href="#" className='flex gap-4'><img src={Mail} alt="" className='w-6 h-5' />Mail</a></li>
         </ul>
     </div>
   )

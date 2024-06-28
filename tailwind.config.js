@@ -11,7 +11,7 @@ export default {
         secondry : '#1C1B23'
       },
       backgroundImage : {
-        'banner' : "url('./src/assets/banner.png')"
+        'banner' : "url('banner.png')"
       }
     },
   },

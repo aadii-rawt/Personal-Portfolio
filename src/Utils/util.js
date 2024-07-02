@@ -17,25 +17,25 @@ export const projectList = [
         title: "Tic Tac Toe",
         languages: "HTML • CSS • Javascript",
         image: 'tictactoe.jpg',
-        url: "https://strirring-biscotti-fa0dd8.netlify.app"
+        url: "https://stirring-biscotti-fa0dd8.netlify.app/"
     },
     {
         title: "Gmail Clone",
         languages: "HTML • CSS • Javascript",
         image: 'gmail.jpg',
-        url: "hhtps://adityarawat4-gmail-clone.netlify.app"
+        url: "https://adityarawat4-gmail-clone.netlify.app/"
     },
     {
         title: "Dice Game",
         languages: "React • Tailwind CSS ",
         image: 'dice-game.jpg',
-        url: "https://adityarawat4-todolist.netlify.app"
+        url: "https://dice-game-ar.netlify.app"
     },
     {
         title: "Bubble Game",
         languages: "HTML • CSS • Javascript",
         image: 'bubble-game.jpg',
-        url: "https://adityarawat4-bubble-game.netlify.app"
+        url: "https://adityarawat4-bubble-game.netlify.app/"
     }
 ]
 

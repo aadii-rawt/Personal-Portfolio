@@ -14,6 +14,12 @@ export const projectList = [
         url: "https://url-shortener-ar.netlify.app/"
     },
     {
+        title: "Pinterest Clone",
+        languages: "React • Firebaset • Tailwind CSS",
+        image: 'pinterest.jpg',
+        url: "https://pinterest-ar.netlify.app/"
+    },
+    {
         title: "Tic Tac Toe",
         languages: "HTML • CSS • Javascript",
         image: 'tictactoe.jpg',

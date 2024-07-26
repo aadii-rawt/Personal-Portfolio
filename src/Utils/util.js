@@ -9,13 +9,13 @@ export const projectList = [
     },
     {
         title: "URL Shortener",
-        languages: "React • Firebaset • Tailwind CSS",
+        languages: "React • Firebase • Tailwind CSS",
         image: 'url-shortener.jpg',
         url: "https://url-shortener-ar.netlify.app/"
     },
     {
         title: "Pinterest Clone",
-        languages: "React • Firebaset • Tailwind CSS",
+        languages: "React • Firebase • Tailwind CSS",
         image: 'pinterest.jpg',
         url: "https://pinterest-ar.netlify.app/"
     },

@@ -1,4 +1,4 @@
-export const SKILLS = ['html.png','css.png','js.png','bootstrap.png','tailwindIcon.png','react.png','firebase.png','mysql.png']
+export const SKILLS = ['html.png','css.png','js.png','bootstrap.png','tailwindIcon.png','react.png',"redux.png",'firebase.png','mysql.png']
 
 export const projectList = [
     {
@@ -9,15 +9,16 @@ export const projectList = [
     },
     {
         title: "URL Shortener",
-        languages: "React • Firebaset • Tailwind CSS",
+        languages: "React • Firebase • Tailwind CSS",
         image: 'url-shortener.jpg',
         url: "https://url-shortener-ar.netlify.app/"
     },
     {
         title: "Pinterest Clone",
-        languages: "React • Firebaset • Tailwind CSS",
+        languages: "React • Firebase • Tailwind CSS",
         image: 'pinterest.jpg',
-        url: "https://pinterest-ar.netlify.app/"
+        url: "https://pinterest-ar.netlify.app/",
+        isProcess: true,
     },
     {
         title: "Tic Tac Toe",

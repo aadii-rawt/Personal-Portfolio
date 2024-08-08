@@ -1,7 +1,7 @@
 import React from 'react'
 function Banner() {
     return (
-        <div className="bg-banner flex justify-between bg-center bg-cover text-white">
+        <div style={{background: "url(banner.png)",backgroundPosition:"center", backgroundSize:"cover"}} className="flex justify-between text-white">
             <div className=" w-full p-5 sm:p-10 backdrop-blur-sm flex justify-between items-center">
                 <div className='user flex items-center gap-4'>
                     <div className="user-profile w-14 sm:w-20 border-white border-2 rounded-full overflow-hidden">

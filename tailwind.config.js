@@ -10,7 +10,7 @@ export default {
         primary : '#14131A',
         secondry : '#1C1B23'
       },
-      backgroundImage : {
+      backgroundImage: {
         'banner' : "url('banner.png')"
       }
     },

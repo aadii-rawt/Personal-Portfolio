@@ -8,17 +8,23 @@ export const projectList = [
         url: "https://google-keep-ar4.netlify.app"
     },
     {
-        title: "URL Shortener",
-        languages: "React • Firebase • Tailwind CSS",
-        image: 'url-shortener.jpg',
-        url: "https://url-shortener-ar.netlify.app/"
-    },
-    {
         title: "Pinterest Clone",
         languages: "React • Firebase • Tailwind CSS",
         image: 'pinterest.jpg',
         url: "https://pinterest-ar.netlify.app/",
         isProcess: true,
+    },
+    {
+        title: "Binary Trading",
+        languages: "React • TradingView Chart",
+        image: '/binary.jpg',
+        url: "https://binary-trade.netlify.app/"
+    },
+    {
+        title: "URL Shortener",
+        languages: "React • Firebase • Tailwind CSS",
+        image: 'url-shortener.jpg',
+        url: "https://url-shortener-ar.netlify.app/"
     },
     {
         title: "Tic Tac Toe",
@@ -43,7 +49,8 @@ export const projectList = [
         languages: "HTML • CSS • Javascript",
         image: 'bubble-game.jpg',
         url: "https://bubble-game-ar.netlify.app/"
-    }
+    },
+    
 ]
 
 export const moreProjectList = [

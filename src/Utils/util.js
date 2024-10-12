@@ -1,4 +1,4 @@
-export const SKILLS = ['html.png','css.png','js.png','bootstrap.png','tailwindIcon.png','react.png',"redux.png",'firebase.png','mysql.png']
+export const SKILLS = ['bootstrap.png','tailwindIcon.png','react.png',"redux.png",'firebase.png','mysql.png']
 
 export const projectList = [
     {

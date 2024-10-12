@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function Banner() {
     return (
         <div style={{background: "url(banner.png)",backgroundPosition:"center", backgroundSize:"cover"}} className="flex justify-between text-white">
@@ -12,10 +13,10 @@ function Banner() {
                     <p className="text-sm">aadi_rawt</p>
                     </div>
                 </div>
-            <div className="social-link flex justify-center items-center gap-2">
+            <a href='#' className="social-link flex justify-center items-center gap-2">
                 <img src='linkedin.png' alt=""  className="w-7"/>
                 <h1 className="font-semibold text-xl hidden sm:block">Aditya Rawat</h1>
-            </div>
+            </a>
             </div>
         </div>
     )

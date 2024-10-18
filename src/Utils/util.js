@@ -57,7 +57,7 @@ export const moreProjectList = [
     {
         title: 'Bubble Game',
         languages: 'HTML • CSS • Javascript',
-        url: ''
+        url: 'https://github.com/aadii-rawt/Bubble-Game'
     },
     {
         title: 'E Bike',
@@ -72,7 +72,7 @@ export const moreProjectList = [
     {
         title: 'Password Generator',
         languages: 'HTML • CSS • Javascript',
-        url: 'https://github.com/adityarawat4/https://github.com/adityarawat4/Password-Generator'
+        url: 'https://github.com/adityarawat4/Password-Generator'
     },
     {
         title: 'Random Joke',
@@ -87,6 +87,6 @@ export const moreProjectList = [
     {
         title: 'Netflix',
         languages: 'HTML • CSS • Javascript • Bootstrap',
-        url: 'hthttps://github.com/adityarawat4/Netfilix'
+        url: 'https://github.com/adityarawat4/Netfilix'
     }
 ]

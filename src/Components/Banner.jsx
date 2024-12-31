@@ -13,7 +13,7 @@ function Banner() {
                     <p className="text-sm">aadi_rawt</p>
                     </div>
                 </div>
-            <a href='#' className="social-link flex justify-center items-center gap-2">
+            <a href='https://linkedin.com/in/aditya-rawat-96701524b' className="social-link flex justify-center items-center gap-2">
                 <img src='linkedin.png' alt=""  className="w-7"/>
                 <h1 className="font-semibold text-xl hidden sm:block">Aditya Rawat</h1>
             </a>

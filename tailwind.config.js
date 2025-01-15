@@ -8,7 +8,8 @@ export default {
     extend: {
       colors : {
         primary : '#14131A',
-        secondry : '#1C1B23'
+        secondry : '#1C1B23',
+        grayText : 'rgba(182, 180, 189, 0.2)',
       },
       backgroundImage: {
         'banner' : "url('banner.png')"

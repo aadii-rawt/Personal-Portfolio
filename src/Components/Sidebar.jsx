@@ -1,6 +1,6 @@
 function Sidebar({isMenuActive}) {
   return (
-    <div className={isMenuActive ? `fixed flex z-50 w-full h-screen justify-center bg-secondry text-white` : 'bg-secondry text-white md:w-72 md:h-[calc(100vh-56px)] md:sticky left-0 top-[56px] justify-center hidden md:flex'}>
+    <div className={isMenuActive ? `fixed flex z-50 w-full h-screen justify-center bg-[#1C1A19] text-white` : 'bg-[#1C1A19] text-white md:w-72 md:h-[calc(100vh-56px)] md:sticky left-0 top-[56px] justify-center hidden md:flex'}>
         <ul>
             <li className='my-10'><a href="https://www.github.com/aadii-rawt/" target="_blank" className='flex gap-4'><img src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png' alt="" className='w-7' /> GitHub</a></li>
             <li className='my-10'><a href="https://linkedin.com/in/aditya-rawat-96701524b" target="_blank" className='flex gap-4'><img src='   https://cdn-icons-png.flaticon.com/512/145/145807.png ' alt="" className='w-7' /> LinkedIn</a></li>

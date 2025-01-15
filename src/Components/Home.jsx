@@ -8,7 +8,7 @@ import Banner from './Banner'
 
 function Home() {
     return (
-        <div className="main w-full bg-primary">
+        <div className="main w-full bg-[#151312]">
             <Banner />
             <Project />
             <Skills />

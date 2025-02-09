@@ -19,11 +19,11 @@ function App() {
       <Home />
      </div> */}
       <div className='bg-[#151312] text-white w-full min-h-screen'>
-        <div className='max-w-[1150px] mx-auto py-24 flex items-start gap-20 relative '>
-          <div className='sticky left-0 top-24'>
+        <div className='max-w-[1150px] mx-auto py-24 flex flex-col md:flex-row items-center  md:items-start gap-20 relative '>
+          <div className='md:sticky left-0 top-24'>
             <Profile />
           </div>
-          <div className='flex-1'>
+          <div className='flex-1 px-5'>
             <Intro />
             <Project />
             <Experience />

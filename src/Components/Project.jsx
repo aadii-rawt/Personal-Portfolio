@@ -29,62 +29,27 @@
 
 
 import React from 'react'
-
+import { projectList } from '../Utils/util'
 function Project() {
     return (
         <div>
             <div>
-            <h1 className='text-8xl font-extrabold uppercase'>Recent <span className='text-[#353334]'>Projects</span></h1>
+                <h1 className='text-8xl font-extrabold uppercase'>Recent <span className='text-[#353334]'>Projects</span></h1>
 
             </div>
 
             <div className='my-10'>
-                <div className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
-                    <div className='flex items-center gap-5' >
-                        {/* <img src="" alt="" /> */}
-                        <div className='w-32 h-32 bg-white rounded-xl'></div>
-                        <div>
-                            <h1 className='font-semibold text-3xl'>Bill flow</h1>
+                {projectList.map((p, i) => (
+                    <a key={i} className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
+                        <div className='flex items-center gap-5' >
+                            {/* <img src="" alt="" /> */}
+                            <div className='w-32 h-32 bg-white rounded-xl'></div>
+                            <div>
+                                <h1 className='font-semibold text-3xl'>{p?.title}</h1>
+                            </div>
                         </div>
-                    </div>
                         <button>-</button>
-                </div>
-
-                <div className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
-                    <div className='flex items-center gap-5' >
-                        {/* <img src="" alt="" /> */}
-                        <div className='w-32 h-32 bg-white rounded-xl'></div>
-                        <div>
-                            <h1 className='font-semibold text-3xl'>Bill flow</h1>
-                        </div>
-                    </div>
-                        <button>-</button>
-                </div>
-
-                
-                <div className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
-                    <div className='flex items-center gap-5' >
-                        {/* <img src="" alt="" /> */}
-                        <div className='w-32 h-32 bg-white rounded-xl'></div>
-                        <div>
-                            <h1 className='font-semibold text-3xl'>Bill flow</h1>
-                        </div>
-                    </div>
-                        <button>-</button>
-                </div>
-
-                <div className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
-                    <div className='flex items-center gap-5' >
-                        {/* <img src="" alt="" /> */}
-                        <div className='w-32 h-32 bg-white rounded-xl'></div>
-                        <div>
-                            <h1 className='font-semibold text-3xl'>Bill flow</h1>
-                        </div>
-                    </div>
-                        <button>-</button>
-                </div>
-
-
+                    </a>))}
             </div>
         </div>
     )

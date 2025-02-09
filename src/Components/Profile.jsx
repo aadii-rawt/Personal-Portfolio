@@ -9,7 +9,7 @@ function Profile() {
     <div className='w-[400px] h-[500px] bg-white rounded-lg p-10'>
       <img src="/goku.jpg" alt="" className='bg-cover' />
       <h1 className='text-black text-3xl  font-bold my-4 text-center'>Aditya Rawat</h1>
-      <p className='text-[#6A6B6E] text-xl font-semibold text-center'>A Software Engineer who has developed countless innovative solutions.</p>
+      <p className='text-[#6A6B6E] text-xl font-semibold text-center'>A Software Developer who has developed countless innovative solutions.</p>
       <div className='text-[#F46C38] text-3xl text-center flex items-center justify-center my-5 gap-8 '>
         <a href="https://dotdazzle.in" target='_blank'><IoGlobeOutline /></a>
         <a href="https://www.instagram.com/aadii_rawt/" target='_blank'><FaInstagram /></a>

@@ -34,7 +34,7 @@ function Project() {
     return (
         <div>
             <div>
-            <h1 className='text-8xl font-extrabold '>Recent <span className='text-[#998F8F]'>Projects</span></h1>
+            <h1 className='text-8xl font-extrabold uppercase'>Recent <span className='text-[#353334]'>Projects</span></h1>
 
             </div>
 

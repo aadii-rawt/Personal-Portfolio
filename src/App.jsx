@@ -5,6 +5,7 @@ import Sidebar from './Components/Sidebar'
 import Profile from './Components/Profile'
 import Intro from './Components/Intro'
 import Project from './Components/Project'
+import Experience from './Components/Experience'
 
 function App() {
   const [isMenuActive, setIsMenuActive] = useState(false)
@@ -17,13 +18,14 @@ function App() {
       <Home />
      </div> */}
       <div className='bg-[#151312] text-white w-full min-h-screen'>
-        <div className='max-w-[1100px] mx-auto  flex items-center gap-20'>
-          <div className=''>
+        <div className='max-w-[1100px] mx-auto  flex  gap-20 relative '>
+          <div className='sticky left-0 top-0'>
             <Profile />
           </div>
           <div>
             <Intro />
             <Project />
+            <Experience />
           </div>
         </div>
       </div>

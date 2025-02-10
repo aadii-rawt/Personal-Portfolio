@@ -4,26 +4,26 @@ export const projectList = [
     {
         title: "Google Keep ",
         languages: "React • Firebase • CSS • MUI",
-        image: 'googleKeep.jpg',
+        image: 'https://i.pinimg.com/736x/57/9d/e5/579de5242325d1154f0b47977b4cbbec.jpg',
         url: "https://google-keep-ar4.netlify.app"
     },
     {
         title: "Pinterest",
         languages: "React • Firebase • Tailwind CSS",
-        image: 'pinterest.jpg',
+        image: 'https://i.pinimg.com/736x/07/99/9f/07999f9eb4034c65a4a962fbdd666522.jpg',
         url: "https://pinterest-ar.netlify.app/",
         isProcess: true,
     },
     {
         title: "Binary Trading",
         languages: "React • TradingView Chart",
-        image: '/binary.jpg',
+        image: 'https://i.pinimg.com/736x/72/60/27/72602765fd8b28df1c127e655bfed488.jpg',
         url: "https://binary-trade.netlify.app/"
     },
     {
         title: "URL Shortener",
         languages: "React • Firebase • Tailwind CSS",
-        image: 'url-shortener.jpg',
+        image: 'https://www.shutterstock.com/image-vector/url-shortener-male-user-compresses-600nw-2213913815.jpg',
         url: "https://url-shortener-ar.netlify.app/"
     },
     // {

@@ -30,25 +30,27 @@
 
 import React from 'react'
 import { projectList } from '../Utils/util'
+import { GoArrowUpRight } from 'react-icons/go'
 function Project() {
     return (
-        <div>
+        <div className='pb-10'>
             <div>
-                <h1 className='text-8xl font-extrabold uppercase'>Recent <span className='text-[#353334]'>Projects</span></h1>
-
+                <h1 className='text-8xl font-extrabold uppercase font-poppins'>Recent <span className='text-[#353334]'>Projects</span></h1>
             </div>
 
-            <div className='my-10'>
+            <div className='my-5'>
                 {projectList.map((p, i) => (
-                    <a key={i} className='hover:bg-[#1C1A19]  cursor-pointer flex justify-between p-5 rounded-lg'>
+                    <a href={p?.url} target='_blank' key={i} className='hover:bg-[#1C1A19]  cursor-pointer flex items-start justify-between p-5 rounded-2xl'>
                         <div className='flex items-center gap-5' >
                             {/* <img src="" alt="" /> */}
-                            <div className='w-32 h-32 bg-white rounded-xl'></div>
+                            <div className='w-28 h-28 bg-white rounded-xl overflow-hidden flex items-center justify-center object-cover'>
+                                <img src={p?.image} alt="" className=' object bg-contain' />
+                            </div>
                             <div>
-                                <h1 className='font-semibold text-3xl'>{p?.title}</h1>
+                                <h1 className='font-semibold text-3xl font-poppins'>{p?.title}</h1>
                             </div>
                         </div>
-                        <button>-</button>
+                        <button className='text-2xl text-[#F46C38]'><GoArrowUpRight /></button>
                     </a>))}
             </div>
         </div>

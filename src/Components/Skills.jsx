@@ -174,12 +174,12 @@ function Skills() {
 
     ];
     return (
-        <div>
+        <div className=''>
             <div>
-                <h1 className='text-8xl font-extrabold uppercase'>PREMIUM
+                <h1 className='text-8xl font-extrabold uppercase font-poppins'>PREMIUM
                     <span className='text-[#353334]'> TOOLS</span></h1>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-1 my-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-1 my-5">
                 {items.map((item, index) => (
                     <div
                         key={index}

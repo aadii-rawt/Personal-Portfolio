@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar{
-    @apply w-2 bg-slate-800
+    @apply w-2 bg-[#151312]
 }
 ::-webkit-scrollbar-thumb{
-    @apply bg-slate-700 
+    @apply bg-[#353334]
     rounded-full
 }

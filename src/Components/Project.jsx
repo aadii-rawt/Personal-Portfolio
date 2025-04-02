@@ -4,10 +4,22 @@ function Project() {
 
     const projectList = [
         {
+            title: "Bill Flow",
+            languages: "MERN",
+            image: 'https://i.pinimg.com/736x/56/72/0e/56720e8a30f283dab3eac92fecc89e72.jpg',
+            url: "https://billsflow.netlify.app/"
+        },
+        {
             title: "Google Keep ",
             languages: "React • Firebase • CSS • MUI",
             image: 'https://i.pinimg.com/736x/57/9d/e5/579de5242325d1154f0b47977b4cbbec.jpg',
             url: "https://google-keep-ar4.netlify.app"
+        },
+        {
+            title: "Binary Trading",
+            languages: "React • TradingView Chart",
+            image: 'https://i.pinimg.com/736x/72/60/27/72602765fd8b28df1c127e655bfed488.jpg',
+            url: "https://binary-trade.netlify.app/"
         },
         {
             title: "Pinterest",
@@ -15,12 +27,6 @@ function Project() {
             image: 'https://i.pinimg.com/736x/07/99/9f/07999f9eb4034c65a4a962fbdd666522.jpg',
             url: "https://pinterest-ar.netlify.app/",
             isProcess: true,
-        },
-        {
-            title: "Binary Trading",
-            languages: "React • TradingView Chart",
-            image: 'https://i.pinimg.com/736x/72/60/27/72602765fd8b28df1c127e655bfed488.jpg',
-            url: "https://binary-trade.netlify.app/"
         },
         {
             title: "URL Shortener",

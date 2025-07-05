@@ -4,6 +4,12 @@ function Project() {
 
     const projectList = [
         {
+            title: "Github Wrapped",
+            languages: "MERN",
+            image: './githubwrapped.png',
+            url: "https://git-wrapped.dotdazzle.in/"
+        },
+        {
             title: "Bill Flow",
             languages: "MERN",
             image: 'https://i.pinimg.com/736x/56/72/0e/56720e8a30f283dab3eac92fecc89e72.jpg',

@@ -13,7 +13,7 @@ function Skills() {
             subtitle: "React Framework",
         },
         {
-            icon: "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png",
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6bebC_d4eWwJ-x9ntqDuT94TvOgumSBVWHg&s",
             title: "Nodejs",
             subtitle: "JS Runtime Environment",
         },

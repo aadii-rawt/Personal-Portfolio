@@ -10,6 +10,12 @@ function Project() {
             url: "https://git-wrapped.dotdazzle.in/"
         },
         {
+            title: "Chartr",
+            languages: "React Native • React.js • Firebase • Tailwind CSS",
+            image: '/chartr-logo.png',
+            url: "https://chartr-apk.netlify.app"
+        },
+        {
             title: "Bill Flow",
             languages: "MERN",
             image: 'https://i.pinimg.com/736x/56/72/0e/56720e8a30f283dab3eac92fecc89e72.jpg',
@@ -27,13 +33,13 @@ function Project() {
             image: 'https://i.pinimg.com/736x/72/60/27/72602765fd8b28df1c127e655bfed488.jpg',
             url: "https://binary-trade.netlify.app/"
         },
-        {
-            title: "Pinterest",
-            languages: "React • Firebase • Tailwind CSS",
-            image: 'https://i.pinimg.com/736x/07/99/9f/07999f9eb4034c65a4a962fbdd666522.jpg',
-            url: "https://pinterest-ar.netlify.app/",
-            isProcess: true,
-        },
+        // {
+        //     title: "Pinterest",
+        //     languages: "React • Firebase • Tailwind CSS",
+        //     image: 'https://i.pinimg.com/736x/07/99/9f/07999f9eb4034c65a4a962fbdd666522.jpg',
+        //     url: "https://pinterest-ar.netlify.app/",
+        //     isProcess: true,
+        // },
         {
             title: "URL Shortener",
             languages: "React • Firebase • Tailwind CSS",

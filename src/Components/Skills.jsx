@@ -8,6 +8,11 @@ function Skills() {
             subtitle: "JS Library",
         },
         {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFncvitKAC10mnF2-A-eYbZyeoSLwuRjR7w&s", // Replace with the actual icon URLs
+            title: "Typescript",
+            subtitle: "Typed JavaScript",
+        },
+        {
             icon: "https://framerusercontent.com/images/MnQFYNLxlgT4EvY2ctcJfHAXZA.png",
             title: "Nextjs",
             subtitle: "React Framework",
@@ -28,36 +33,30 @@ function Skills() {
             subtitle: "SaaS",
         },
         {
-            icon: "https://img.icons8.com/color/512/redux.png",
-            title: "Redux",
-            subtitle: "State Management",
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yC3D0xNXks3kUESc7weCtsxWI8QgXa09mA&s",
+            title: "Prisma",
+            subtitle: "ORM",
         },
-        {
-            icon: "https://images.seeklogo.com/logo-png/43/2/react-query-logo-png_seeklogo-435661.png",
-            title: "React Query",
-            subtitle: "API Calls",
-        },
-        {
+         {
             icon: "https://cdn.iconscout.com/icon/free/png-256/free-postgresql-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-freebies-pack-logos-icons-1175119.png?f=webp",
             title: "Postgres",
             subtitle: "Database",
         },
-
         {
-            icon: "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png",
-            title: "JWT",
-            subtitle: "Authentication",
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGoA3RTSbl0UAbsELQu7h4U1Rwnu_f9y6LKSZADB9LqlYoOvC58iDITwMTPeGUWPaL4g&usqp=CAU",
+            title: "AWS",
+            subtitle: "Cloud Platform",
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlteYC8JzOXhlKW6bLCwKrpTKJV8u6-GAFg&s",
+            title: "Digital Ocean",
+            subtitle: "Cloud Platform",
         },
 
         {
             icon: "https://cdn.iconscout.com/icon/free/png-256/free-postman-3628992-3030217.png?f=webp",
             title: "postman",
             subtitle: "API Testing",
-        },
-        {
-            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s",
-            title: "Tailwind",
-            subtitle: " CSS framework",
         },
         {
             icon: "https://framerusercontent.com/images/SvTAZZonMqViqF7fP6GK7CWmL84.png",

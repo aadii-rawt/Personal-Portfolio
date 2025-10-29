@@ -4,10 +4,22 @@ function Project() {
 
     const projectList = [
         {
+            title: "FUMA",
+            languages: "MERN",
+            image: './fuma.png',
+            url: "https://fuma.dotdazzle.in/"
+        },
+        {
             title: "Github Wrapped",
             languages: "MERN",
             image: './githubwrapped.png',
             url: "https://git-wrapped.dotdazzle.in/"
+        },
+        {
+            title: "DoraUI",
+            languages: "MERN",
+            image: './doraui.png',
+            url: "https://doraui.dotdazzle.in/"
         },
         {
             title: "Chartr",
@@ -40,12 +52,12 @@ function Project() {
         //     url: "https://pinterest-ar.netlify.app/",
         //     isProcess: true,
         // },
-        {
-            title: "URL Shortener",
-            languages: "React • Firebase • Tailwind CSS",
-            image: 'https://www.shutterstock.com/image-vector/url-shortener-male-user-compresses-600nw-2213913815.jpg',
-            url: "https://url-shortener-ar.netlify.app/"
-        },
+        // {
+        //     title: "URL Shortener",
+        //     languages: "React • Firebase • Tailwind CSS",
+        //     image: 'https://www.shutterstock.com/image-vector/url-shortener-male-user-compresses-600nw-2213913815.jpg',
+        //     url: "https://url-shortener-ar.netlify.app/"
+        // },
     ]
     return (
         <div className='pb-10'>

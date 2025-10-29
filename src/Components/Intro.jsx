@@ -9,13 +9,12 @@ function Intro() {
             </div>
             <div className='flex flex-col sm:flex-row py-5 gap-5'>
                 <div className='bg-[#F46C38] flex items-center  h-60 rounded-lg p-5'>
-                    <h1 className='text-3xl font-semibold font-poppins tracking-wide'>REACTJS, NEXT, FIGMA, TAILWIND,
-                        SHADCN
+                    <h1 className='text-3xl font-semibold font-poppins tracking-wide'>REACT, TYPESCRIPT, NEXT, SHADCN
                     </h1>
                 </div>
                 <div className='bg-[#C5FF41] flex items-center h-60 rounded-lg p-5'>
                     <h1 className='text-3xl text-black font-semibold font-poppins tracking-wide'>
-                    NODE, EXPRESS, FIRBASE, JWT, MONOGODB</h1>
+                    NODE, EXPRESS, PRISMA, MONOGODB</h1>
                 </div>
             </div>
         </div>

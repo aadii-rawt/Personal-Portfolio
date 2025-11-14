@@ -3,6 +3,8 @@ import Intro from './Components/Intro'
 import Project from './Components/Project'
 import Experience from './Components/Experience'
 import Skills from './Components/Skills'
+import Github from './Components/Github'
+import QuoteCard from './Components/QuoteCard'
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
           </div>
           <div className='flex-1 px-5'>
             <Intro />
+            <Github />
             <Project />
             <Experience />
             <Skills />
+            <QuoteCard />
           </div>
         </div>
       </div>

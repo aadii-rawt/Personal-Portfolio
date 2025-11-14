@@ -2,7 +2,7 @@ import React from 'react'
 
 function Intro() {
     return (
-        <div className='text-white pb-10'>
+        <div className='text-white pb-5'>
             <h1 className='text-5xl text-center md:text-left lg:text-8xl font-extrabold uppercase font-poppins tracking-wide'>Software <span className='text-[#353334]'>Developer</span></h1>
             <div>
             <p className='text-xl text-center md:text-left my-5 text-[#998F8F] font-liter'>Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.</p>
